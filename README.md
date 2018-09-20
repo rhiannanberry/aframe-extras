@@ -1,4 +1,5 @@
-# A-Frame Extras
+#FORK OF:
+## A-Frame Extras
 
 [![Build Status](https://travis-ci.org/donmccurdy/aframe-extras.svg?branch=master)](https://travis-ci.org/donmccurdy/aframe-extras)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/donmccurdy/aframe-extras/master/LICENSE)
@@ -42,18 +43,14 @@ src
     └── a-tube.js
 </pre>
 
+## Additions to Aframe Extras:
+- Updated FBXLoader
+
 ## Usage (Scripts)
 
-In the [dist/](https://github.com/donmccurdy/aframe-extras/tree/master/dist) folder, download any package(s) you need. Include the scripts on your page, and all components are automatically registered for you:
+This fork's dist/ is updated to v4.1.3 of aframe-extras
 
-```html
-<script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.3/dist/aframe-extras.min.js"></script>
-```
-
-CDN builds for aframe-extras/v4.1.3:
-
-- [aframe-extras.js](https://cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.3/dist/aframe-extras.js) *(development)*
-- [aframe-extras.min.js](https://cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.3/dist/aframe-extras.min.js) *(production)*
+In the [dist/](https://github.com/rhiannanberry/aframe-extras/tree/master/dist) folder, download any package(s) you need. Include the scripts on your page, and all components are automatically registered for you.
 
 For partial builds, use a subpackage like `aframe-extras.controls.min.js`. Full list of packages above.
 
